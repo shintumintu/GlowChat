@@ -1,0 +1,13 @@
+const String LoginViewRoute = "LoginScreen";
+const String SignUpViewRoute = "SignUpPage";
+const String HomeViewRoute = "HomePage";
+const String UserViewRoute = "UserPage";
+const String ForgotViewRoute = "ForgotPage";
+const String PhoneViewRoute = "PhoneAuthPage";
+const String OtpViewRoute = "OtpPage";
+const String FeedViewRoute = "FeedPage";
+const String VideoViewRoute = "VideoPage";
+const String StoryViewRoute = "StoryPage";
+const String NotificationViewRoute = "NotificationPage";
+const String ProfileViewRoute = "ProfilePage";
+// Generate the views here

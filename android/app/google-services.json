@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72149264505",
+    "firebase_url": "https://apollo-423ba.firebaseio.com",
+    "project_id": "apollo-423ba",
+    "storage_bucket": "apollo-423ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72149264505:android:9c9990f68d153e7eeb4ca8",
+        "android_client_info": {
+          "package_name": "com.example.glowchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72149264505-v1nn74s4lv1ikmg1fs6apd3oiuttdio0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.glowchat",
+            "certificate_hash": "a35d258548e72a9bd166d525afe6b47392f2ec78"
+          }
+        },
+        {
+          "client_id": "72149264505-kgv9gsbdgqmgas3rba5uppt6vi190slr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9jCgCv7P9YZYJqQ560-PwuM78EAiUbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72149264505-kgv9gsbdgqmgas3rba5uppt6vi190slr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
