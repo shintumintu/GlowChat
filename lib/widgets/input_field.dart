@@ -88,7 +88,6 @@ class _InputFieldState extends State<InputField> {
                   obscureText: isPassword,
                   readOnly: widget.isReadOnly,
                   decoration: InputDecoration.collapsed(
-                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
                       hintText: widget.placeholder,
                       hintStyle:
                           TextStyle(fontSize: widget.smallVersion ? 12 : 15)),
