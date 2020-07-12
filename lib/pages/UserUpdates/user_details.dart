@@ -23,7 +23,7 @@ class _UserPageState extends State<UserPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SizedBox(height: 80,),
+            SizedBox(height: 15,),
             Padding(
               padding: EdgeInsets.all(20),
               child: Column(
@@ -35,7 +35,7 @@ class _UserPageState extends State<UserPage> {
                 ],
               ),
             ),
-            SizedBox(height: 20),
+            
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
