@@ -26,7 +26,7 @@ class FirestoreService {
     }
   }
 
-  Stream listenToPOstREALtime() {
+  Stream listenToPostRealtime() {
     _usersCollectionReference.snapshots().listen((event) {
       if (event.documents.isNotEmpty) {
         var userdetails = event.documents
@@ -40,4 +40,6 @@ class FirestoreService {
     });
     return _postsController.stream;
   }
+
+  
 }

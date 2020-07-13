@@ -105,6 +105,7 @@ class AuthenticationService {
       _currentUser = await _firestoreService.getUser(user.uid);
     }
   }
+  
 
   Future<void> verifyPhone({
     @required String phoneNo,
@@ -149,4 +150,6 @@ class AuthenticationService {
       return e.message;
     }
   }
+
+
 }
