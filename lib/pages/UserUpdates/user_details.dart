@@ -12,7 +12,7 @@ class _UserPageState extends State<UserPage> {
   Widget build(BuildContext context) {
     return ViewModelBuilder.reactive(
         viewModelBuilder: () => UserViewModel(),
-        onModelReady: (model) => model.listenToPosts(),
+        onModelReady: (model) => model.listenToUserdetails(),
         builder: (context, model, child) => Scaffold(
               body: Column(
                   children: <Widget>[
